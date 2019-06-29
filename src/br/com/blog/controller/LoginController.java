@@ -1,4 +1,4 @@
-package br.com.caelum.blog.controller;
+package br.com.blog.controller;
 
 import javax.servlet.http.HttpSession;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import br.com.caelum.blog.dao.JdbcUsuarioDao;
-import br.com.caelum.blog.model.Usuario;
+import br.com.blog.dao.JdbcUsuarioDao;
+import br.com.blog.model.Usuario;
 
 @Controller
 public class LoginController 

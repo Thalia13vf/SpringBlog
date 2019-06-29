@@ -1,4 +1,4 @@
-package br.com.caelum.blog.dao;
+package br.com.blog.dao;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import br.com.caelum.blog.model.Artigo;
+import br.com.blog.model.Artigo;
 
 @Repository
 public class JdbcArtigoDao 

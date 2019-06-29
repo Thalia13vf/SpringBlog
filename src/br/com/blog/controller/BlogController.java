@@ -1,4 +1,4 @@
-package br.com.caelum.blog.controller;
+package br.com.blog.controller;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletResponse;
@@ -8,8 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import br.com.caelum.blog.dao.JdbcArtigoDao;
-import br.com.caelum.blog.model.Artigo;
+import br.com.blog.dao.JdbcArtigoDao;
+import br.com.blog.model.Artigo;
 
 @Controller
 public class BlogController 

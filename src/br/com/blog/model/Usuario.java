@@ -1,4 +1,4 @@
-package br.com.caelum.blog.model;
+package br.com.blog.model;
 
 public class Usuario 
 {

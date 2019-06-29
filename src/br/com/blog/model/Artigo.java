@@ -1,4 +1,4 @@
-package br.com.caelum.blog.model;
+package br.com.blog.model;
 
 import java.util.Calendar;
 import org.springframework.format.annotation.DateTimeFormat;

@@ -1,4 +1,4 @@
-package br.com.caelum.blog;
+package br.com.blog;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

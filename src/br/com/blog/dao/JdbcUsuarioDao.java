@@ -1,4 +1,4 @@
-package br.com.caelum.blog.dao;
+package br.com.blog.dao;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -7,7 +7,8 @@ import java.sql.PreparedStatement;
 import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import br.com.caelum.blog.model.Usuario;
+
+import br.com.blog.model.Usuario;
 
 @Repository
 public class JdbcUsuarioDao 
