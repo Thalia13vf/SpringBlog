@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+	section#corpo-artigo
+			{
+				float: left;
+			}
+			h2.autor
+			{
+				font-family: Arial,sans-serif;
+				font-size: 14pt;
+				margin-top: 0px;
+				color: rgba(0,0,0,0.6);
+			}
+			h1.titulo-artigo{
+				margin-bottom: 2px;
+			}
+	aside#lateral
+	{
+		position: relative;
+		bottom: 0px;
+	}			
